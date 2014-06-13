@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Using Internal CSS</title>
-        <style type ="text/css">
-            body {
-                font-family:arial;
-                background-color:rgb(185, 179, 175);
-            }
-            h1 {
-                color:rgb(255, 255, 255);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Potatoes</h1>
-        <p>There are dozens of different potato varieties. They are usually described as early, second early, and maincrop potatoes.</p>
-    </body>
+	<head>
+		<title>Font Family</title>
+		<style type = "text/css">
+			html {
+				background: url(images/Castle_Neuschwanstein.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+  				-o-background-size: cover;
+  				background-size: cover;
+			}
+			body {
+				color: white;
+				background: rgba(0, 0, 0, .7);
+				padding: 10px;
+				text-align: center;
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 12px;
+				margin-left: 25%;
+				margin-right: 25%;
+				margin-top: 10%;
+			}
+			h1{
+				font-size: 250%;
+				text-align: center;
+			}
+			a.breed {
+				color: inherit;
+			}
+			p.intro {
+				text-align: left;
+			}
+			h2 {
+				font-size: 120%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>CASTLE NEUSCHWANSTEIN</h1>
+		<h2>Architecture</h2>
+		<p class="intro">The effect of the Neuschwanstein ensemble is highly stylistic, both externally and internally. The king's influence is apparent throughout, and he took a keen personal interest in the design and decoration. An example can be seen in his comments, or commands, regarding a mural depicting Lohengrin in the Palas; "His Majesty wishes that ... the ship be placed further from the shore, that Lohengrin's neck be less tilted, that the chain from the ship to the swan be of gold and not of roses, and finally that the style of the castle shall be kept medieval."</p>
+	</body>
 </html>

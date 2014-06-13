@@ -1,5 +1,12 @@
-body {
-    font-family: arial;
-    background-color: rgb(185, 179, 175);}
+/* Color name */
 h1 {
-    color:rgb(255, 255, 255);}
+	color: DarkCyan;
+}
+/* hex code */
+h2 {
+	color: #ee3e80;
+}
+/* RGB value */
+p {
+	color: rgb(100, 100, 90);
+}
