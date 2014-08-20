@@ -10,22 +10,22 @@
 				margin-top: 60px;
 				margin-bottom: 60px;
 
-				-moz-animation-name: dropHeader;
+				-moz-animation-name: fadeInOnLoad;
 				-moz-animation-iteration-count: 1;
 				-moz-animation-timing-funtion: ease-in;
 				-moz-animation-duration: 0.3s;
 
-				-webkit-animation-name: dropHeader;
+				-webkit-animation-name: fadeInOnLoad;
 			    -webkit-animation-iteration-count: 1;
 			    -webkit-animation-timing-function: ease-in;
 			    -webkit-animation-duration: 0.3s;
 
-			    animation-name: dropHeader;
+			    animation-name: fadeInOnLoad;
 			    animation-iteration-count: 1;
 			    animation-timing-function: ease-in;
 			    animation-duration: 0.3s;
 			}
-			@-moz-keyframes dropHeader {
+			@-moz-keyframes fadeInOnLoad {
 			    0% {
 			        opacity: 0.5;
 			    }
@@ -33,7 +33,7 @@
 			    	opacity: 1;
 			    }
 			}
-			@-webkit-keyframes dropHeader {
+			@-webkit-keyframes fadeInOnLoad {
 			    0% {
 			        opacity: 0;
 			    }
@@ -41,7 +41,7 @@
 			    	opacity: 1;
 			    }
 			}
-			@keyframes dropHeader {
+			@keyframes fadeInOnLoad {
 			    0% {
 			        opacity: 0;
 			    }
@@ -86,6 +86,7 @@
 				border-bottom: 1px solid;
 			}
 			li {
+				font-weight: bold;
 				display: inline-block;
 				padding: 10px 60px;
 			}
