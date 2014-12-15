@@ -23,6 +23,8 @@ body {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.3s;
+
+    text-rendering: optimizeLegibility;
 }
 @-moz-keyframes fadeInOnLoad {
     0% {
@@ -122,8 +124,15 @@ p {
  * The links at bottom of website
  * ----------------------------------------*/
 #footerlinks {
+	text-align: center;
+}
+#footerlinks div {
+	font-family: "Tahoma", sans-serif;
+	margin: 30;
+}
+#footerlinks img {
 	display: inline;
-	padding: 50;
+	margin: 10px;
 }
 figure {
 	display: block;
